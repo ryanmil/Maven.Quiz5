@@ -26,6 +26,8 @@ public class IntegerSortedGroupDeleteTest {
         // when
         group.delete(firstValue);
 
+        System.out.println(group);
+
         int secondValueIndex = group.indexOf(secondValue);
         int thirdValueIndex = group.indexOf(thirdValue);
         int fourthValueIndex = group.indexOf(fourthValue);

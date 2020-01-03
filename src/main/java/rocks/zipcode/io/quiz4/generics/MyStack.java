@@ -4,8 +4,10 @@ package rocks.zipcode.io.quiz4.generics;
  * @author leon on 11/12/2018.
  */
 public class MyStack<SomeType> {
+
+
     public MyStack() {
-        throw new UnsupportedOperationException("Method not yet implemented");
+
     }
 
     public Boolean isEmpty() {
@@ -16,7 +18,7 @@ public class MyStack<SomeType> {
     }
 
     public SomeType peek() {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        return null;
     }
 
     public SomeType pop() {
